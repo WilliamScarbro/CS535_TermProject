@@ -11,10 +11,11 @@ on a cs lab machine...
 pip3 install pyspark --user
 ```
 
-2. install jupyter notebook and add to path
+2. install jupyter notebook, add to path, and run
 ```
 pip3 install notebook --user
 export PATH=$PATH:$HOME/.local/bin
+jupyter notebook --no-browser
 ```
 
 
